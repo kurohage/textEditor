@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import { tsMethodSignature } from "@babel/types";
 
 class App extends Component {
   state = {
@@ -7,6 +8,7 @@ class App extends Component {
     bold: null,
     italic: null,
     underline: null,
+    styleString: "",
     text: ""
   };
 
