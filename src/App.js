@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import styles from "./App.css";
 import { tsMethodSignature } from "@babel/types";
 
 class App extends Component {
@@ -43,6 +43,7 @@ class App extends Component {
           style={styles[style]}
           key={style}
           onClick={() => this.setStyle(style)}
+          className={this.state[style] === style ? "button-active" : ""}
         >
           {style}
         </button>

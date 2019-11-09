@@ -2,15 +2,6 @@
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.button-active {
+  background-color: skyblue;
+}
